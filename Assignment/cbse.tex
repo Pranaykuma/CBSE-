@@ -1,0 +1,209 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tfrupee}
+\usepackage{algorithmic}
+\usepackage{setspace}                       
+\usepackage{multirow}                        
+\usepackage{multicol}
+\usepackage{array}    
+\usepackage{booktabs}
+\usepackage{amsfonts} 
+
+\begin{document}
+\subsection*{Algebra}
+\begin{enumerate}
+\item 
+Let $*$ be a binary operation on N given by $a * b = \text{HCF}(a, b)$, where $a, b \in N$. Write the value of $22 * 4$.
+
+\item 
+Let $f : N \rightarrow N $ be a function defined by
+\begin{center}
+$
+f(n) = 
+\begin{cases} 
+\frac{n+1}{2}, & \text{if }  n \text{ is odd} \\
+\frac{n}{2}, & \text{if } n \text{ is even}
+\end{cases}
+\text{ for all } n \in N $
+\end{center}
+Find whether the function $f$ is bijective.
+
+\item 
+A manufacturer can sell $x$ items at a price of Rs. $\left(5 - \frac{x}{100}\right)$ each The cost price of $x$ is Rs.$\left(\frac{x}{5} + 500\right)$. Find the number of items he should sell to earn maximum profit.
+
+\item 
+Find the intervals in which the function f given by
+\begin{center}
+$f(x) = \sin x + \cos x, 0 \leq x \leq 2\pi,$   
+\end{center}
+is strictly increasing or strictly decreasing.
+\end{enumerate}
+
+\subsection*{Differentiation}
+\begin{enumerate}
+    \item if $\sin y = x \sin(a + y),$ prove that $\frac{dy}{dx} = \frac{\sin^2(a+y)}{\sin a}.$
+    \item if $(\cos x)^y = (\sin y)^x, $ find $\frac{dy}{dx}.$
+    \item if $y = \frac{\sin^{-1} x}{\sqrt{1-x^2}}$, show that
+    \item $(1 - x^2)\frac{d^2{y}}{dx^2}-3x\frac{dy}{dx} - y = 0$
+    \item Solve the following differential equation :
+\begin{center}
+$x \frac{dy}{dx} = y - x \tan \frac{y}{x}$
+\end{center} 
+\item solve the following differential equation :
+\begin{center}
+${cos^{2}} {x} \frac{dy}{dx} + y = \tan x$
+\end{center} 
+\end{enumerate}
+
+\subsection*{Geometry}
+\begin{enumerate}
+\item 
+Write the direction cosines of a line equally inclined to the three coordinates axes. 
+\item 
+Find the equation of the plane determined by the points $A(3, -1, 2), B(5, 2, 4)$ and $C(-1, -1, 6)$. also find the distance of the point $P(6, 5, 9)$ from the plane.
+\item 
+Find the area of the region included between the parabola ${y}^ {2} = x$ and the line $x + y = 2$
+\item 
+The length $x$ of a rectangle is decreasing at the rate of $5 cm$/minute and the width $y$ is increasing at the rate of $4 cm$/minute. When $x = 8 cm $and$ y = 6 cm$, find the rate of change of $(a)$ the perimeter,$ (b)$ the area of the rectangle.
+\end{enumerate}
+
+\subsection*{Linear Regression}
+\begin{enumerate}
+\item 
+A dealer wishes to purchase a number of fans and sewing machines. He has only \rupee~5,760 to invest and has a space for at most 20 items.A fan costs him \rupee~360 and a sewing machine \rupee~240. His expectation is that he can sell a fan at a profit of \rupee~22 and a sewing machine at a profit of \rupee~18. Assuming that he can sell all the items that he can buy, how should he invest his money in order to maximise the profit ? Formulate this as a linear programming problem and solve it graphically.
+\end{enumerate}
+
+\subsection*{Integration}
+\begin{enumerate}
+\item Evaluate:
+\[\int\limits_{0}^{\frac{1}{\sqrt{2}}} \frac{1}{\sqrt{1 - x^2}}\, dx\]
+\item Evaluate:
+\[\int\frac{cos\sqrt{x}}{\sqrt{x}}\, dx\]
+\item Evaluate:
+\[\int \frac{dx}{\sqrt{5-4x-2x^2}} \]
+\vspace{10pt}
+\item Evaluate:
+\[\int x sin^{-1}{x}\,dx\]
+\item Evaluate:
+\[\int\limits_{0}^{\pi}\frac{x dx}{a^2 \cos^2 x + b^2 \sin^2 x}\]
+\vspace{10pt}
+\[\int\limits_{0}^{\pi} \frac{x dx}{a^2 \cos^2 x + b^2 \sin^2 x}\]
+\end{enumerate}
+
+\subsection*{Matrices}
+\begin{enumerate}
+\item Find the value of $x$, if
+\newcommand{\myvec}[1]{\left(\begin{matrix} #1 \end{matrix}\right)}
+\[
+\myvec{3x + y & -y \\
+       2y - x & 3}
+           =
+\myvec{1 & 2 \\
+       -5 & 3}
+\]
+\item Write the value of the following determinant:\\
+\newcommand{\mydet}[1]{\left| #1 \right|}
+\[
+\mydet{
+\begin{matrix}
+a - b & b - c & c - a \\ 
+b - c & c - a & a - b \\ 
+c - a & a - b & b - c
+\end{matrix}
+}
+\]
+\item Find the value of $x$ from the following:\\
+\[
+\mydet{
+\begin{matrix}
+x & 4 \\
+2 & 2x
+\end{matrix}
+} = 0
+\]
+\item Using properties of determinants, prove the following:\\
+\[
+\mydet{
+\begin{matrix}
+1 & 1 + p & 1 + p + q \\
+2 & 3 + 2p & 1 + 3p + 2q \\
+3 & 6 + 3p & 1 + 6p + 3q
+\end{matrix}
+} = 1
+\]
+\item Using matrices, solve the following system of equations:\\
+\begin{center}
+		$x+y+z = 6$\\
+		$x+2z = 7$\\
+		$3x+y+z = 12$
+\end{center}
+\item Obtain the inverse of the following matrix using elementary operations:\\
+\[
+A = \begin{bmatrix}
+3 & 0 & -1 \\
+2 & 3 & 0 \\
+0 & 4 & 1
+\end{bmatrix}
+\]
+\end{enumerate}
+
+\subsection*{Probability}                              
+\begin{enumerate}                                      
+\item On a multiple choice examination with three possible answers (out of which only one is correct) for each of the five questions, what is the probability that a candidate would get four or more correct answers just by guessing?  
+
+\item Colored balls are distributed in three bags as shown in the following table:
+
+\begin{table}[h]                                                         
+\centering
+{       
+\begin{tabular}{|c|c|c|c|}
+\hline                                                              
+Bag & \multicolumn{3}{c|}{Colour of the Ball} \\                    
+\cline{2-4}                                                         
+& Black & White & Red \\                                           
+\hline
+I & 1 & 2 & 3 \\                                                   
+\hline                                                              
+II & 2 & 4 & 1 \\                                                  
+\hline                                                             
+III & 4 & 5 & 3 \\                                                  
+\hline
+
+\end{tabular} } 
+
+\end{table}
+A bag is selected at random, and then two balls are randomly drawn from the selected bag. They happen to be black and red. What is the probability that they came from Bag I?
+\end{enumerate}
+
+\subsection*{Trigonometry}
+\begin{enumerate}
+\item 
+write the principle vale of $\cos^{-1} \left(\cos\frac{7\pi}{6}\right)
+$
+\item Prove the following:\\
+\begin{center}
+$\cot^{-1}\left(\frac{\sqrt{1 + \sin x} + \sqrt{1 - \sin x}}{\sqrt{1 + \sin x} - \sqrt{1 - \sin x}}\right) = \frac{x}{2}, x\in  \left({0},\frac{\pi}{4}\right)$
+\end{center}
+\item 
+If the sum of the lengths of the hypotenuse and a side of a right-angled triangle is given, show that the area of the triangle is maximum when the angle between them is $\frac{\pi}{3}$. 
+\end{enumerate}
+
+\subsection*{Vectors}
+\begin{enumerate}
+\item 
+Find the value of $\vec{p}$ if 
+$$(2\hat{i} + 6\hat{j} + 27\hat{k}) \times (\hat{i} + 3\hat{j} + p\hat{k}) = \vec{0}.$$
+
+\item 
+If ${\tilde{p}}$ is a unit vector and $({\tilde{x}} - {\tilde{p}}) \cdot ({\tilde{x}} + {\tilde{p}}) = 80$, then find $|{\tilde{x}}|$.
+
+\item 
+Find the shortest distance between the following two lines:
+$$\vec{r} = (1 + \lambda)\hat{i} + (2 - \lambda)\hat{j} + (\lambda + 1)\hat{k};$$
+$$\vec{r} = (2\hat{i} - \hat{j} - \hat{k}) + \mu(2\hat{i} + \hat{j} + 2\hat{k}).$$
+
+\item 
+The scalar product of the vector $\hat{i} + \hat{j} + \hat{k}$ with the unit vector along the sum of vectors $2\hat{i} + 4\hat{j} - 5\hat{k}$ and $\lambda \hat{i} + 2\hat{j} + 3\hat{k}$ is equal to one. Find the value of $\lambda$.
+\end{enumerate}
+\end{document}
